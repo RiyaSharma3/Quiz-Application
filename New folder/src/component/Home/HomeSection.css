@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(12, 12, 12);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-text-box {
+    position: relative;
+    height: 676px;
+    background-image: url('./images/background_image.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+}
+

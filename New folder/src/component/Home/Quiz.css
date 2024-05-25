@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(40, 40, 40);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-books{
+    position:relative;
+    background-color: #C3E0E5;
+    display: flex;
+    justify-content: center;
+    padding-bottom:60px;
+}
+
+.books {
+    text-align: center;
+    width: 100%;
+}
+
+.it a{
+    color: #4f81b0;
+    font-size: 24px;  
+    font-family: math;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 48px;
+    color: #182944;
+    font-family: Georgia;
+    margin-top: 40px;
+}
+
+.box-container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 52px;
+     flex-wrap: wrap; 
+}
+
+.box {
+    width: 292px;
+    height: 200px;
+    background-color: #FFFFFF; 
+    border: 2.5px solid white; 
+    border-radius: 10px;
+    margin: 10px;   
+}
+
+.it{
+    display: flex;
+    flex-direction: column;
+} 
+
+.box-container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 52px;
+    flex-wrap: wrap; 
+    padding-top: 27px;
+}
+
